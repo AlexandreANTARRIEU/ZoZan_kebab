@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beaf45f-5644-487e-a1d3-19653026760f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.py" afterDir="false" />
+    <list default="true" id="9beaf45f-5644-487e-a1d3-19653026760f" name="Default Changelist" comment="Creation main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +62,38 @@
       <option name="presentableId" value="Default" />
       <updated>1590744065066</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creation main">
+      <created>1590744423672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590744423672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation main">
+      <created>1590744483872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590744483872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creation main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="172" key="FileChooserDialogImpl" timestamp="1590744200986">
@@ -59,5 +104,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="624" y="350" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1590744121140" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590744524248">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590744524248" />
+    <state x="478" y="218" key="git4idea.merge.GitPullDialog" timestamp="1590746622595">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="478" y="218" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1590746622595" />
   </component>
 </project>
