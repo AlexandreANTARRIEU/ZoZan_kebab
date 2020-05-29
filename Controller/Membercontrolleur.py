@@ -49,7 +49,7 @@ class MemberControlleur :
         epre = self.random_string_generator()
         pswd_empreinte = pswd + epre
 
-        sha256 = hashlib.sha256(b" pswd_empreinte").hexdigest()
+        sha256 = hashlib.sha256(b" pswd_empreinte").hexdigest() #problème d'encodage soit je retourne une chaine erreure sout je RETOURNE b''
 
         print(firstname)
         print(name)
