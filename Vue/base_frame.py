@@ -3,6 +3,7 @@ from functools import partial
 
 
 class BaseFrame(Frame):
+
     def __init__(self, root_frame):
         super().__init__(root_frame.master, width=300)
         self._root_frame = root_frame

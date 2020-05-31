@@ -3,6 +3,7 @@ from Vue.base_frame import BaseFrame
 
 
 class MenuFrame(BaseFrame):
+
     def __init__(self, root_frame):
         super().__init__(root_frame)
         self.create_menu()
@@ -16,4 +17,5 @@ class MenuFrame(BaseFrame):
         self.title.pack(side="top")
         self.sign_in.pack()
         self.sign_up.pack()
+        self.order.pack()
         self.quit.pack(side="bottom")
