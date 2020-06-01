@@ -14,9 +14,9 @@ class OrderFrame(BaseFrame):
         Label(self, text="Pain :").grid(row=1, sticky='w')
         valuepain = StringVar(value="classique")
         valuepain.set("classique")
-        Radiobutton(self, text="Classique", variable=valuepain, value="classique", tristatevalue="x", width=10).grid(row=2, column=0, sticky='w')
-        Radiobutton(self, text="Pita", variable=valuepain, value="pita", tristatevalue="x", width=10).grid(row=2, column=1, sticky='w')
-        Radiobutton(self, text="Wrap", variable=valuepain, value="wrap", tristatevalue="x", width=10).grid(row=2, column=2, sticky='w')
+        Radiobutton(self, text="Classique", variable=valuepain, value="classique", tristatevalue="x").grid(row=2, column=0, sticky='w')
+        Radiobutton(self, text="Pita", variable=valuepain, value="pita", tristatevalue="x").grid(row=2, column=1, sticky='w')
+        Radiobutton(self, text="Wrap", variable=valuepain, value="wrap", tristatevalue="x").grid(row=2, column=2, sticky='w')
 
         Label(self, text="Viande :").grid(row=3, sticky='w')
         valueviande = StringVar(value="kebab")
@@ -41,3 +41,6 @@ class OrderFrame(BaseFrame):
         Radiobutton(self, text="Ketchup", variable=valuesauce, value="ketchup", tristatevalue="x").grid(row=8, column=1, sticky='w')
         Radiobutton(self, text="Samourai", variable=valuesauce, value="samourai", tristatevalue="x").grid(row=8, column=2, sticky='w')
         Radiobutton(self, text="Algérienne", variable=valuesauce, value="algerienne", tristatevalue="x").grid(row=8, column=3, sticky='w')
+
+        Button(self, text="Valider", fg="green", command=self.back).grid(row=10, column=1, sticky='w')
+        Button(self, text="Annuler", fg="red", command=self.back).grid(row=10, column=2, sticky='w')
