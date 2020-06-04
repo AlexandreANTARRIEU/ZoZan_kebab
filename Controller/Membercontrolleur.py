@@ -19,8 +19,7 @@ class MemberControlleur :
         i = 0
         while i < 50:
             i = i+1
-            chaine.join(random.choice(listecar))
-
+            chaine = chaine + random.choice(listecar)
         return chaine
 
 
@@ -49,18 +48,5 @@ class MemberControlleur :
         epre = self.random_string_generator()
         pswd_empreinte = pswd + epre
 
-        sha256 = hashlib.sha256(b" pswd_empreinte").hexdigest() #problème d'encodage soit je retourne une chaine erreure sout je RETOURNE b''
-
-        print(firstname)
-        print(name)
-        print(mail)
-        print(pswd)
-        print("\n")
-        print(firstnameok)
-        print(nameok)
-        print(mailok)
-        print("empreinte\n")
-        print(pswd_empreinte)
-        print("sha\n")
-        print(sha256)
+        sha256 = hashlib.sha256(pswd_empreinte.encode('utf-8')).hexdigest()
 
