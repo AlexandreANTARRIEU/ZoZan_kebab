@@ -49,4 +49,8 @@ class MemberControlleur :
         pswd_empreinte = pswd + epre
 
         sha256 = hashlib.sha256(pswd_empreinte.encode('utf-8')).hexdigest()
+        if(firstnameok == True & nameok == True & mailok == True & pswdok == True):
+            print("entrée valide")
+        else:
+            print("entree invalide")
 
