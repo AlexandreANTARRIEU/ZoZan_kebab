@@ -54,3 +54,5 @@ class MemberControlleur :
         else:
             print("entree invalide")
 
+    def print_member(self):
+        return
