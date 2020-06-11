@@ -4,6 +4,9 @@ from Vue.menu_frame import MenuFrame
 from Vue.order_frame import OrderFrame
 from Vue.valid_order_frame import ValidOrderFrame
 from Vue.pay_frame import PayFrame
+from Vue.member_frames.new_member_frame import NewMemberFrame
+from Vue.member_frames.login_member_frame import LoginMemberFrame
+
 
 
 class RootFrame(Frame):
@@ -31,6 +34,18 @@ class RootFrame(Frame):
         order_frame = OrderFrame(self)
         order_frame.show()
         self._frames.append(order_frame)
+
+    def login_user(self):
+        self.hide_menu()
+        login_member_frame = LoginMemberFrame(self)
+        login_member_frame.show()
+        self._frames.append(login_member_frame)
+
+    def new_user(self):
+        self.hide_menu()
+        new_member_frame = NewMemberFrame(self)
+        new_member_frame.show()
+        self._frames.append(new_member_frame)
 
     def valid_order(self):
         self.hide_frames()

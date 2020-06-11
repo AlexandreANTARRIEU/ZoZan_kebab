@@ -10,8 +10,8 @@ class MenuFrame(BaseFrame):
 
     def create_menu(self):
         self.title = Label(self, text="Bienvenue chez ZoZan Kebab")
-        self.sign_in = Button(self, text="S'identifier", width=30, command=self._root_frame.sign_in)
-        self.sign_up = Button(self, text="S'inscrire", width=30, command=self._root_frame.sign_up)
+        self.sign_in = Button(self, text="S'identifier", width=30, command=self._root_frame.login_user)
+        self.sign_up = Button(self, text="S'inscrire", width=30, command=self._root_frame.new_user)
         self.order = Button(self, text="Commander", width=30, command=self._root_frame.order)
         self.quit = Button(self, text="Quitter", fg="red", width=30, command=self._root_frame.quit)
         self.title.pack(side="top")
