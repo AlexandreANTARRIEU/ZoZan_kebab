@@ -6,10 +6,11 @@ class MemberControlleur :
     """
     S'occupe de la gestion des membres des inscriptions
     """
-    """
-    def __init__(self,membermodel):
-        self._member_model_ = membermodel
-    """
+
+    def __init__(self,Member):
+        self._member_model_ = Member
+        
+
     def __init__(self):
         self
 
@@ -23,11 +24,12 @@ class MemberControlleur :
         return chaine
 
 
-    def create_member(self, firstname, name, mail, pswd, confirmatio_pswd):
+    def inscription(self, name ,firstname, mail, pswd, confirmatio_pswd):
         firstnameok = False
         nameok = False
         mailok = False
         pswdok = False
+        creatok = False
 
         x = re.search("^[A-Z][a-z]*$", firstname)
         if x:
@@ -51,8 +53,25 @@ class MemberControlleur :
         sha256 = hashlib.sha256(pswd_empreinte.encode('utf-8')).hexdigest()
         if(firstnameok == True & nameok == True & mailok == True & pswdok == True):
             print("entrée valide")
+            creatok = True
         else:
             print("entree invalide")
+            creatok = False
+        return creatok
 
     def print_member(self):
         return
+
+    def verif_presence(self,mail):
+        ok=False
+        content =_getmail(mail)
+        if(content == mail):
+            ok=True
+        return ok
+
+    def login(self, name, firstname, mail, pswd):
+        ok = False
+        content = _getuser(name, firstname, mail, pswd)
+        if (content[0] == name & content[1] == firstname & content[2] == mail & content[3] == pswd ):
+            ok = True
+        return ok

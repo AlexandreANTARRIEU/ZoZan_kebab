@@ -28,7 +28,6 @@
     <list default="true" id="9beaf45f-5644-487e-a1d3-19653026760f" name="Default Changelist" comment="Creation main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Membercontrolleur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Membercontrolleur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/kebabcontrolleur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/kebabcontrolleur.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591267286377</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="getingredient">
+      <created>1591566879799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591566879799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +243,8 @@
     <MESSAGE value="random+create" />
     <MESSAGE value="probleme d'encodage pour le sha256" />
     <MESSAGE value="Creation fonctionnelle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation fonctionnelle" />
+    <MESSAGE value="getingredient" />
+    <option name="LAST_COMMIT_MESSAGE" value="getingredient" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="172" key="FileChooserDialogImpl" timestamp="1590763557145">
@@ -264,10 +271,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591299096275" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1591267298336">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1591566883880">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591267298336" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591566883880" />
     <state x="609" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590758074113">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
