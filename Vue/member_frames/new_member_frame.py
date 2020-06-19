@@ -4,9 +4,9 @@ from Vue.base_frame import BaseFrame
 
 
 class NewMemberFrame(BaseFrame):
-
     def __init__(self, master=None):
         super().__init__(master)
+        #self._person_controller = person_controller
         self.create_widgets()
         self.name_pattern = re.compile("^[a-zA-Z-]{2,50}$")
         self.email_pattern = re.compile("^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$")
@@ -49,4 +49,7 @@ class NewMemberFrame(BaseFrame):
 
     def valid(self):
         #data = self.get_data()
+        #verification_inscription =0
+        #while(verification_inscription == 0):
+        #    if()
         self._root_frame.new_order()

@@ -19,14 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beaf45f-5644-487e-a1d3-19653026760f" name="Default Changelist" comment="Creation main">
+    <list default="true" id="9beaf45f-5644-487e-a1d3-19653026760f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/commande_frames/new_commande_frame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/commande_frames/validate_commande_frame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/order_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/commande_frames/order_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/pay_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/commande_frames/pay_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/commande_frames/order_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/commande_frames/order_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/commande_frames/valid_order_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/commande_frames/valid_order_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/member_frames/login_member_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/member_frames/login_member_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/member_frames/new_member_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/member_frames/new_member_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/root_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/root_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/valid_order_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/commande_frames/valid_order_frame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590744065066</updated>
-      <workItem from="1592582539305" duration="171000" />
+      <workItem from="1592582539305" duration="10445000" />
     </task>
     <task id="LOCAL-00001" summary="Creation main">
       <created>1590744423672</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590758182447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creation main">
+      <created>1592582911765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592582911765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,11 +163,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creation main" />
     <MESSAGE value="MCV" />
-    <option name="LAST_COMMIT_MESSAGE" value="MCV" />
+    <MESSAGE value="Creation main" />
+    <MESSAGE value="Ordonnement dans les fichiers Vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ordonnement dans les fichiers Vue" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1592582954801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592582954801" />
     <state x="579" y="172" key="FileChooserDialogImpl" timestamp="1590744200986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -170,30 +181,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="624" y="350" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1590744121140" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1591882583756">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom" timestamp="1592592724948">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592592724948" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591882583756" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1591882583756">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="140" key="GridCell.Tab.0.center" timestamp="1592592724947">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592592724947" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591882583756" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1591882583756">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="140" key="GridCell.Tab.0.left" timestamp="1592592724947">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592592724947" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591882583756" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1591882583756">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="140" key="GridCell.Tab.0.right" timestamp="1592592724948">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592592724948" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591882583756" />
     <state x="281" y="84" key="MergeDialog" timestamp="1591877128180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="281" y="84" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591877128180" />
-    <state x="376" y="156" key="Vcs.Push.Dialog.v2" timestamp="1592582897810">
+    <state x="376" y="156" key="Vcs.Push.Dialog.v2" timestamp="1592582985804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="156" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592582897810" />
+    <state x="376" y="156" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592582985804" />
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590758197476" />
     <state x="731" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591877082728">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -205,5 +220,8 @@
     </state>
     <state x="478" y="218" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1590758082513" />
     <state x="574" y="264" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591107869050" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ZoZan_kebab$main.coverage" NAME="main Coverage Results" MODIFIED="1592592724935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

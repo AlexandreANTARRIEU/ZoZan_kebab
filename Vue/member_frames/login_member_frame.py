@@ -7,6 +7,7 @@ class LoginMemberFrame(BaseFrame):
 
     def __init__(self, master=None):
         super().__init__(master)
+        #self._person_controller = person_controller
         self.create_widgets()
         self.email_pattern = re.compile("^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$")
 
@@ -37,4 +38,6 @@ class LoginMemberFrame(BaseFrame):
 
     def valid(self):
         #data = self.get_data()
+        #try :
+        #    user_data = self._person_controller.inscription()
         self._root_frame.new_order()

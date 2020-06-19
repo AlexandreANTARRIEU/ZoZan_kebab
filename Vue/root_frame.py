@@ -40,6 +40,12 @@ class RootFrame(Frame):
         new_member_frame.show()
         self._frames.append(new_member_frame)
 
+    # def new_user(self):
+    #   self.hide_menu()
+    #   new_member_frame = NewMemberFrame(self._person_controller, self)
+    #   new_member_frame.show()
+    #   self._frames.append(new_member_frame)
+
     def valid_order(self):
         self.hide_frames()
         valid_order_frame = ValidOrderFrame(self)
