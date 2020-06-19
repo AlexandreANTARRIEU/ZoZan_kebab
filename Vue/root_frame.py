@@ -1,12 +1,11 @@
 from tkinter import *
 
 from Vue.menu_frame import MenuFrame
-from Vue.order_frame import OrderFrame
-from Vue.valid_order_frame import ValidOrderFrame
-from Vue.pay_frame import PayFrame
+from Vue.commande_frames.order_frame import OrderFrame
+from Vue.commande_frames.valid_order_frame import ValidOrderFrame
+from Vue.commande_frames.pay_frame import PayFrame
 from Vue.member_frames.new_member_frame import NewMemberFrame
 from Vue.member_frames.login_member_frame import LoginMemberFrame
-
 
 
 class RootFrame(Frame):
@@ -15,12 +14,6 @@ class RootFrame(Frame):
         super().__init__(master)
         self._menu_frame = MenuFrame(self)
         self._frames = []
-
-    def sign_in(self):
-        pass
-
-    def sign_up(self):
-        pass
 
     def order(self):
         self.hide_menu()
